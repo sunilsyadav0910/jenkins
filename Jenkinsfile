@@ -3,6 +3,7 @@ pipeline {
     agent any
     environment {
        ENV_URL="pipeline.global.com"
+       SSH_CRED=credentials("SSH_CRED")
 
     }
 
