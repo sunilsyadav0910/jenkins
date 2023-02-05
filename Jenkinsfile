@@ -11,7 +11,6 @@ pipeline {
             steps {
                 echo "I am in stage one"
                 echo "env_url is ${ENV_URL}"
-                echo env
             }
         }
 
@@ -33,6 +32,7 @@ stage('three') {
                 echo hia there
                 echo using jenkins
                 echo "env_url is ${ENV_URL}"
+                echo env
                 '''
             }
         }
