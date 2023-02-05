@@ -32,7 +32,7 @@ stage('three') {
                 echo hia there
                 echo using jenkins
                 echo "env_url is ${ENV_URL}"
-                echo env
+                env
                 '''
             }
         }
