@@ -17,7 +17,11 @@ pipeline {
 
 stage('three') {
             steps {
-                echo "I am in stage three"
+                sh '''
+                echo I am in stage three
+                echo hia there
+                echo using jenkins
+                '''
             }
         }
     }
